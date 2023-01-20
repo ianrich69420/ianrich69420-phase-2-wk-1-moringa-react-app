@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/css/main.073c9b0a.css",
+    "main.js": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/js/main.2e1a18aa.js",
+    "static/js/787.046fe0d9.chunk.js": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/js/787.046fe0d9.chunk.js",
+    "index.html": "/ianrich69420-phase-2-wk-1-moringa-react-app/index.html",
+    "main.073c9b0a.css.map": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/css/main.073c9b0a.css.map",
+    "main.2e1a18aa.js.map": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/js/main.2e1a18aa.js.map",
+    "787.046fe0d9.chunk.js.map": "/ianrich69420-phase-2-wk-1-moringa-react-app/static/js/787.046fe0d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2e1a18aa.js"
+  ]
+}
