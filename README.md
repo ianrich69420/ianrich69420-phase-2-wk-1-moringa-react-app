@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Bank of FlatIron!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+This is the project made for the fourth challenge for Moringa School.
 
-In the project directory, you can run:
+In this project is a website in which a user can:
 
-### `npm start`
+- See a table of transactions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  Fill out and submit the form to add a new transaction. This should add the new transaction to the table
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
 
-### `npm test`
+## Project Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In order for you to use the content on this repo ensure you have the following:
 
-### `npm run build`
+- A computer that runs on Linux
+- nodejs installed
+- Any text editor such as VSCode installed
+- Any web browser such as Google Chrome installed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open a terminal on your computer
+- Clone the repo by using the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        git clone https://github.com/ianrich69420/phase-2-wk-1-moringa-code-challenge.git
 
-### `npm run eject`
+- After the repository has been cloned succesfully change directory to the repository folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        cd phase-1-independent-project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Open it in a text editor of your choice, however I personally prefer using VSCode so in order to open the folder in VSCode do the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        code .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- And use the editor to replace each fetch request link with http://localhost:8001/transactions
 
-## Learn More
+You can use the following steps to run the app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Install the required dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        npm install --save json-server
 
-### Code Splitting
+- Open the project in a browser of your choice, however I personally prefer using Google Chrome so in order to open the folder in Google Chrome do the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        google-chrome index.html
 
-### Analyzing the Bundle Size
+- Run the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+        npm start
 
-### Making a Progressive Web App
+- Go to the back to the page on your browser, refresh and vote for your favorite animal!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
+This project was contributed to by:
+- [Ian Richard Orieko](https://github.com/ianrich69420/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+Licensed by Apache 2.0
